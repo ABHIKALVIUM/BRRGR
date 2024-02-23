@@ -1,7 +1,5 @@
-// Initial price of the burger
 var basePrice = 10;
 
-// Ingredients of the burger along with the price
 var ingredients = {
   Patty: 80,
   Cheese: 10,
@@ -9,8 +7,6 @@ var ingredients = {
   Onions: 20,
   Lettuce: 20
 };
-
-// Current state of the ingredients in the burger
 var state = {
   Patty: true,
   Cheese: true,
@@ -19,7 +15,6 @@ var state = {
   Lettuce: true
 };
 
-// This function renders the entire screen every time the state changes accordingly
 function renderAll() {
   renderPatty();
   renderCheese();
